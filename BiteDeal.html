@@ -6,15 +6,13 @@
     <title>BiteBox</title>
     <script src="https://kit.fontawesome.com/1163fe69e6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="Style.css">
-    <script src="JS/scripts.js"></script>
 </head>
+
 <body>
     <header>
-        <nav id="navMenu">
-            <a href="index.html">
-                <img src="Images/Bite Box.png" alt="BiteBox Logo" class="Logo" width="100px" height="100px"></a>
+        <nav>
+                <img src="Images/Bite Box.png" alt="BiteBox Logo" class="Logo" width="100px" height="100px">
                 <h2>Bite<span style="color: red;">Box</span></h2>
-                <button class="menu-btn" onclick="toggleMenu()"><i id="menuIcon" class="fa-solid fa-bars"></i></button>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="BiteDeal.html"><i class="fa-solid fa-house-user"></i></a></li>
@@ -24,36 +22,61 @@
                     <li><a href="login.html">Login</a></li>
         </nav>
     </header>
-    <!--Creating Banner-->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Welcome to BiteBox</h1>
-            <h1>Delicious Food Delivered Fast</h1>
-            <p>Order Your Favourite Food Anytime , Anywhere</p>
-            <a href="menu.html">
-            <button>Order Now</button>
-            </a>
+    <section class="deals-bite">
+        <div class="bite-hero">
+            <marquee><h1>Bite Deal</h1></marquee>
+            <p>Save More On Your Favourite Meal</p>
         </div>
     </section>
-    <!--Starting video section-->
-    <section class="video-section">
-        <div class="video-text">
-            <h2>Food Story</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusamus dolorem voluptatem ratione quidem laborum, sequi dolore, facere voluptatibus esse commodi error placeat, accusantium in explicabo assumenda quia quasi numquam.</p>
+    <section class="combo-section">
+        <h2 class="section-title">Today's Special Offer</h2>
+        <div class="combo-container">
+            <!--Meal 1-->
+            <div class="combo-card">
+                <img src="Images/Meal 1.png">
+                <h3>Cheese Burger + (S)Fries + (M)Coke</h3>
+                <p>Perfect Snacks</p>
+                <h4>@399<span>@299</span></h4>
+                <button>Order Now</button>
+                </div>
+                <!--Meal 2-->
+                <div class="combo-card">
+                <img src="Images/Meal 2.png">
+                <h3>Farmhouse Pizza + (S)Fries + (M)Coke</h3>
+                <p>Perfect Snacks</p>
+                <h4>@599<span>@499</span></h4>
+                <button>Order Now</button>
+                </div>
+                <!--Meal 3-->
+                <div class="combo-card">
+                <img src="Images/Meal 3.png">
+                <h3>Cheese Grill Sandwhich + (S)Fries + (M)Coke</h3>
+                <p>Perfect Snacks</p>
+                <h4>@399<span>@299</span></h4>
+                <button>Order Now</button>
+                </div>
         </div>
-        <div class="video-box">
-            <video autoplay muted loop>
-                <source src="media/food1.mp4" type="video/mp4">
-            </video>
+        <!--Day Wise Offer-->
+        <h2 class="section-title">Special Day Offer...</h2>
+        <div  class="deal-container">
+            <div class="deal-card">
+                <h3>Friday Feast</h3>
+                <p>Get 20% Off On All Orders Above $50</p>
+                <span>Use Code:FRI50</span>
+            </div>
+            <div class="deal-card">
+                <h3>Saturday Feast</h3>
+                <p>Get 25% Off On All Orders Above $50</p>
+                <span>Use Code:SAT50</span>
+            </div>
+            <div class="deal-card">
+                <h3>Sunday Feast</h3>
+                <p>Get $120 Off On All Orders Above $500</p>
+                <span>Use Code:Sun50</span>
+            </div>
         </div>
-        </div>
-        </section>
-        <!--about us-->
-    <section class=about>
-        <h2>Whou Are You.......</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae blanditiis placeat deleniti officia exercitationem nobis laboriosam rem eos ut maxime? Tempora a ratione, beatae soluta repudiandae commodi! Nobis, ab. Distinctio!</p>
-    </section>    
-    <!--Creating Footer-->
+    </section>
+     <!--Creating Footer-->
     <footer>
         <div class="footer-container">
             <div class="footer-box">
@@ -90,5 +113,5 @@
                 <p><i class="fa-solid fa-copyright"></i>2026 BiteBox | All Rights Reerved</p>
             </div>
     </footer>
-</body>
-</html>
+    </body>
+    </html>

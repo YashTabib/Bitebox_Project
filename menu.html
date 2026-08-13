@@ -3,18 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BiteBox</title>
+    <title>BiteBox Menu</title>
     <script src="https://kit.fontawesome.com/1163fe69e6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="Style.css">
-    <script src="JS/scripts.js"></script>
 </head>
+
 <body>
     <header>
-        <nav id="navMenu">
-            <a href="index.html">
-                <img src="Images/Bite Box.png" alt="BiteBox Logo" class="Logo" width="100px" height="100px"></a>
+        <nav>
+                <img src="Images/Bite Box.png" alt="BiteBox Logo" class="Logo" width="100px" height="100px">
                 <h2>Bite<span style="color: red;">Box</span></h2>
-                <button class="menu-btn" onclick="toggleMenu()"><i id="menuIcon" class="fa-solid fa-bars"></i></button>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="BiteDeal.html"><i class="fa-solid fa-house-user"></i></a></li>
@@ -24,36 +22,47 @@
                     <li><a href="login.html">Login</a></li>
         </nav>
     </header>
-    <!--Creating Banner-->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Welcome to BiteBox</h1>
-            <h1>Delicious Food Delivered Fast</h1>
-            <p>Order Your Favourite Food Anytime , Anywhere</p>
-            <a href="menu.html">
-            <button>Order Now</button>
-            </a>
+    <!--Start Menu Section-->
+    <h2>Our Menu</h2>
+    <div class="menu-container">
+        <div class="card">
+            <img src="images/Farmhouse Pizza.png">
+            <h3>Pizza</h3>
+            <p>Farmhouse Pizza</p>
+            <span>@349</span><br>
+            <button>Add TO Cart</button>
         </div>
-    </section>
-    <!--Starting video section-->
-    <section class="video-section">
-        <div class="video-text">
-            <h2>Food Story</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusamus dolorem voluptatem ratione quidem laborum, sequi dolore, facere voluptatibus esse commodi error placeat, accusantium in explicabo assumenda quia quasi numquam.</p>
+         <div class="card">
+            <img src="images/Chees burger image.png">
+            <h3>Burger</h3>
+            <p>Cheesy Burger</p>
+            <span>@149</span><br>
+            <button>Add TO Cart</button>
         </div>
-        <div class="video-box">
-            <video autoplay muted loop>
-                <source src="media/food1.mp4" type="video/mp4">
-            </video>
+         <div class="card">
+            <img src="images/coke with ice-cream.png">
+            <h3>Coke</h3>
+            <p>coke with Ice-cream</p>
+            <span>@99</span><br>
+            <button>Add TO Cart</button>
         </div>
+         <div class="card">
+            <img src="images/cheesy fries.png">
+            <h3>Fries</h3>
+            <p>Cheesy Fries</p>
+            <span>@139</span><br>
+            <button>Add TO Cart</button>
         </div>
-        </section>
-        <!--about us-->
-    <section class=about>
-        <h2>Whou Are You.......</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae blanditiis placeat deleniti officia exercitationem nobis laboriosam rem eos ut maxime? Tempora a ratione, beatae soluta repudiandae commodi! Nobis, ab. Distinctio!</p>
-    </section>    
-    <!--Creating Footer-->
+          <div class="card">
+            <img src="images/Black Coffee.png">
+            <h3>Coffee</h3>
+            <p>Black Coffee</p>
+            <span>@99</span><br>
+            <button>Add TO Cart</button>
+        </div>
+    </div>    
+    <!--End Menu Section-->
+     <!--Creating Footer-->
     <footer>
         <div class="footer-container">
             <div class="footer-box">
@@ -90,5 +99,5 @@
                 <p><i class="fa-solid fa-copyright"></i>2026 BiteBox | All Rights Reerved</p>
             </div>
     </footer>
-</body>
-</html>
+    </body>
+    </html>
